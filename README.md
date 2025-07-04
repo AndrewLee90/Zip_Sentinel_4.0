@@ -29,6 +29,9 @@ ZipSentinel API는 다음과 같은 구조로 동작합니다: <br/>
 이 시스템은 기존의 수동 대응 방식에서 벗어나 보안 자동화, AI 기반 분석 이라는 두 가지 핵심 방향을 실현하며, 
 <br/> 향후 다양한 웹 플랫폼, 파일 공유 서비스, 내부 업무 시스템 등으로의 확장이 가능합니다.
 
+
+## Back-End
+
 <img width="605" alt="image" src="https://github.com/user-attachments/assets/0cdcbc25-471b-4a4f-8ea1-762fde2277d3" />
 
 
@@ -78,6 +81,8 @@ VT_API_KEY = os.getenv("VT_API_KEY")
 
 
 ```
+
+## Front-End
 
 본 API는 PHP, Wordpress 기반의 CMS 게시판을 제작하여 테스트 하였으며, </br>
 FE 개발 관련한 코드는 별도로 FE_로 표기하였습니다.
