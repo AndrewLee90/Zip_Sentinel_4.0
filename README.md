@@ -10,7 +10,9 @@
 위협 여부를 자동 판별하는 API 기반 보안 분석 시스템 “ZipSentinel”을 개발하였습니다.
 
 
-!image_flowchart
+
+<img width="707" alt="image" src="https://github.com/user-attachments/assets/34a00cdf-b594-43a5-abab-164e540ee388" />
+
 
 
 
