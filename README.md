@@ -85,8 +85,11 @@ FE 개발 관련한 코드는 별도로 FE_로 표기하였습니다.
 게시글 작성 > CMS > Plugin > API > 안전 여부 판단 CMS 전송 > 게시글 공개 or 비공개 처리
 
 <img width="461" alt="image" src="https://github.com/user-attachments/assets/b7dc1b0c-f908-4b2f-ad8a-4a91aa47ab4b" />
-<img width="457" alt="image" src="https://github.com/user-attachments/assets/1f9cceec-4eff-48c0-8323-135515a58249" />
+</br>
 <img width="449" alt="image" src="https://github.com/user-attachments/assets/6ea3cc53-cc12-40fb-bd9d-5a401dae2916" />
+</br>
+<img width="457" alt="image" src="https://github.com/user-attachments/assets/1f9cceec-4eff-48c0-8323-135515a58249" />
+</br>
 
 
 
