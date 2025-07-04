@@ -5,8 +5,9 @@
 <br/>
 현대의 웹 환경에서는 블로그, 포럼, 문서 공유 플랫폼, 내부 포털 등 다양한 형태의 웹 콘텐츠에 사용자가 파일을 첨부하고 
 <br/> 이를 공개하는 일이 매우 흔합니다. 
-<br/>이 중에서도 비밀번호로 암호화된 압축파일(.zip, .7z 등)은 보안 상의 취약 지점으로 작용합니다. <br/>
-일반적인 보안 솔루션은 내부 파일을 열람할 수 없기 때문에, <br/>악성코드 유포자는 이러한 구조를 악용하여 검열을 회피하고 위협을 유포하는 수단으로 사용하고 있습니다.<br/>
+<br/>이 중에서도 비밀번호로 암호화된 압축파일(.zip, .7z 등)은 보안 상의 취약 지점으로 작용합니다. 
+<br/>일반적인 보안 솔루션은 내부 파일을 열람할 수 없기 때문에, 
+<br/>악성코드 유포자는 이러한 구조를 악용하여 검열을 회피하고 위협을 유포하는 수단으로 사용하고 있습니다.<br/>
 
 기존 엔드포인트 보안 솔루션에서는 암호화된 압축파일을 자동으로 분석하거나 선제적으로 차단하는 것이 어렵습니다.<br/>
 
@@ -34,9 +35,10 @@ ZipSentinel API는 다음과 같은 구조로 동작합니다: <br/>
 
 <img width="605" alt="image" src="https://github.com/user-attachments/assets/0cdcbc25-471b-4a4f-8ea1-762fde2277d3" />
 
-
+</br>
 
 ZipSentinel-API 디렉토리 설정
+</br>
 
 ```
 📦 ZipSentinel-API
@@ -52,7 +54,7 @@ ZipSentinel-API 디렉토리 설정
 │   ├── output_sender.py    # 최종 분석 결과 포맷 및 전달 처리
 │   └── llama_analyze.py    # LLaMA 기반 추론 API (Docker에 모델이 업로드 되어 있어야 사용 가능)
 ```
-
+</br>
 
 환경 변수 설정 (.env)
 본 프로젝트는 외부 서비스 연동 시 API 키 및 민감한 설정 정보를 직접 코드에 포함하지 않고,
@@ -92,18 +94,23 @@ VT_API_KEY = os.getenv("VT_API_KEY")
 
 <img width="461" alt="image" src="https://github.com/user-attachments/assets/b7dc1b0c-f908-4b2f-ad8a-4a91aa47ab4b" />
 </br>
+</br>
 <img width="449" alt="image" src="https://github.com/user-attachments/assets/6ea3cc53-cc12-40fb-bd9d-5a401dae2916" />
+</br>
 </br>
 <img width="457" alt="image" src="https://github.com/user-attachments/assets/1f9cceec-4eff-48c0-8323-135515a58249" />
 </br>
+</br>
 
 
-
-</br>## 프로젝트 요약
+</br>
+</br>프로젝트 요약
+</br>
 </br>ZipSentinel은 비밀번호로 보호된 압축파일의 보안 위협을 AI 기반으로 자동 분석하여, 
 </br>웹 콘텐츠의 안전성을 실시간으로 판별하는 지능형 보안 게이트웨이 시스템입니다.
 </br>
-</br>## 핵심 기능 요약
+</br>
+</br>핵심 기능 요약
 </br>구성 요소	기능 설명
 </br> 문맥 기반 추론	게시글 본문에서 비밀번호를 LLM(ClovaX, LLaMA 등)으로 자동 추론
 </br> 압축 해제 엔진	zip, rar, 7z, tar.gz 등 다양한 포맷을 안전하게 해제
