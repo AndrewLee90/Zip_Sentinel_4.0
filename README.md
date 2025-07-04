@@ -43,11 +43,11 @@ ZipSentinel-API 디렉토리 설정
 ├── routers/                # 기능별 API 모듈
 │   ├── input_receiver.py   # 게시글 수신 → 비밀번호 추론 → 다운로드 → 해제 → 분석
 │   ├── file_extract.py     # 압축파일(.zip, .rar, .7z, .tar.gz) 해제 처리
-│   ├── clovax_analyze.py   # ClovaX 기반 비밀번호 추론 API
+│   ├── clovax_analyze.py   # ClovaX 기반 비밀번호 추론 API (Default 설정. main.py 에서 변경 가능)
 │   ├── vt_analyzer.py      # VirusTotal 해시 분석 및 미등록 시 업로드
 │   ├── risk_grader.py      # 악성파일 수 기반 위험도 등급 분류
 │   ├── output_sender.py    # 최종 분석 결과 포맷 및 전달 처리
-│   └── llama_analyze.py    # (예정) LLaMA 기반 추론 API
+│   └── llama_analyze.py    # LLaMA 기반 추론 API (Docker에 모델이 업로드 되어 있어야 사용 가능)
 ```
 
 
