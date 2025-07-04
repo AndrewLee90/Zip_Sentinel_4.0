@@ -84,10 +84,11 @@ VT_API_KEY = os.getenv("VT_API_KEY")
 
 ## Front-End
 
-본 API는 PHP, Wordpress 기반의 CMS 게시판을 제작하여 테스트 하였으며, </br>
-FE 개발 관련한 코드는 별도로 FE_로 표기하였습니다.
-
-게시글 작성 > CMS > Plugin > API > 안전 여부 판단 CMS 전송 > 게시글 공개 or 비공개 처리
+본 API는 PHP 및 WordPress 기반의 CMS 게시판 환경에서 테스트되었으며, 
+</br>게시글 작성 시점부터 자동 분석이 연동되는 구조로 설계되었습니다. 사용자가 게시글을 작성하면, 
+</br>해당 내용은 CMS 플러그인을 통해 백엔드 API로 전달되고, 
+</br>API는 첨부된 다운로드 링크와 게시글 본문을 분석하여 보안 위험 여부를 판단합니다. 
+</br>분석 결과에 따라 CMS는 해당 게시글을 자동으로 공개하거나 비공개 처리하여, 실시간 보안 연동 기능을 제공합니다.
 
 <img width="461" alt="image" src="https://github.com/user-attachments/assets/b7dc1b0c-f908-4b2f-ad8a-4a91aa47ab4b" />
 </br>
@@ -96,6 +97,29 @@ FE 개발 관련한 코드는 별도로 FE_로 표기하였습니다.
 <img width="457" alt="image" src="https://github.com/user-attachments/assets/1f9cceec-4eff-48c0-8323-135515a58249" />
 </br>
 
+
+
+프로젝트 요약
+💡 ZipSentinel은 비밀번호로 보호된 압축파일의 보안 위협을 AI 기반으로 자동 분석하여, 
+</br>웹 콘텐츠의 안전성을 실시간으로 판별하는 지능형 보안 게이트웨이 시스템입니다.
+</br>
+</br>🚀 핵심 기능 요약
+</br>구성 요소	기능 설명
+</br>🔐 문맥 기반 추론	게시글 본문에서 비밀번호를 LLM(ClovaX, LLaMA 등)으로 자동 추론
+</br>📦 압축 해제 엔진	zip, rar, 7z, tar.gz 등 다양한 포맷을 안전하게 해제
+</br>🧠 VirusTotal 연동	해시 기반 악성 분석 및 평판 조회 (자동 업로드 포함)
+</br>📊 위험도 등급화	악성 개수 기반 등급 분류: 양호, 주의, 위험, 미분석
+</br>⚙️ CMS 실시간 연동	게시글 작성 시 자동 분석 → 공개 여부 자동 조정
+</br>
+</br>🛡️ 프로젝트 특징
+</br>✅ AI 기반 자동 보안 분석
+</br>
+</br>✅ 도커 기반 API 서버 및 플러그인 연동
+</br>
+</br>✅ CMS, 포럼, 기업 내부 시스템까지 확장 가능
+</br>
+</br>✅ .env 기반 보안 환경 변수 관리 적용
+</br>
 
 
 
