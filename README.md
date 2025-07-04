@@ -26,4 +26,49 @@ ZipSentinel은 다음과 같은 구조로 동작합니다: <br/>
 위협 진단: VirusTotal 연동 및 내부 평판 시스템으로 위협 등급 판별<br/>
 자동 반영: 결과값을 통해 콘텐츠의 상태를 동적으로 조정하거나, 관리자에게 경고 전달<br/>
 <br/>
-이 시스템은 기존의 수동 대응 방식에서 벗어나 보안 자동화, AI 기반 분석 이라는 두 가지 핵심 방향을 실현하며, <br/> 향후 다양한 웹 플랫폼, 파일 공유 서비스, 내부 업무 시스템 등으로의 확장이 가능합니다.
+이 시스템은 기존의 수동 대응 방식에서 벗어나 보안 자동화, AI 기반 분석 이라는 두 가지 핵심 방향을 실현하며, 
+<br/> 향후 다양한 웹 플랫폼, 파일 공유 서비스, 내부 업무 시스템 등으로의 확장이 가능합니다.
+
+<img width="605" alt="image" src="https://github.com/user-attachments/assets/0cdcbc25-471b-4a4f-8ea1-762fde2277d3" />
+
+
+
+ZipSentinel-API 디렉토리 설정
+
+📦 ZipSentinel-API
+├── Dockerfile
+├── requirements.txt
+├── main.py                     # FastAPI 진입점, 라우터 통합
+├── routers/                   # 기능별 API 모듈
+│   ├── input_receiver.py      # 게시글 수신 → 비밀번호 추론 → 다운로드 → 해제 → 분석
+│   ├── file_extract.py        # 압축파일(.zip, .rar, .7z, .tar.gz) 해제 처리
+│   ├── clovax_analyze.py      # ClovaX 기반 비밀번호 추론 API
+│   ├── vt_analyzer.py         # VirusTotal 해시 분석 및 미등록 시 업로드
+│   ├── risk_grader.py         # 악성파일 수 기반 위험도 등급 분류
+│   ├── output_sender.py       # 최종 분석 결과 포맷 및 전달 처리
+│   └── llama_analyze.py       # (예정) LLaMA 기반 추론 API
+
+
+환경 변수 설정 (.env)
+본 프로젝트는 외부 서비스 연동 시 API 키 및 민감한 설정 정보를 직접 코드에 포함하지 않고,
+</br> .env 파일을 통해 관리하는 것을 권장합니다.
+</br> 업로드한 본문에서는 테스트의 유동성을 위한 하드코딩되어 있지만, 
+</br> 보안 이슈를 차단하기 위해 모두 센서처리 한 점을 참고 부탁드립니다.
+
+```
+# .env 예시
+VT_API_KEY=your_virustotal_api_key
+CLOVAX_API_KEY=your_clovax_api_key
+CLOVAX_BASE_URL=https://clovastudio.stream.ntruss.com/v1/openai
+
+.env 파일은 .gitignore에 반드시 포함하여 버전 관리에서 제외되어야 하며,
+</br>외부에 유출되지 않도록 주의하세요.
+```
+
+```
+#Python
+
+import os
+VT_API_KEY = os.getenv("VT_API_KEY")
+
+```
