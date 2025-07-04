@@ -67,10 +67,13 @@ CLOVAX_BASE_URL=https://clovastudio.stream.ntruss.com/v1/openai
 </br>외부에 유출되지 않도록 주의하세요.
 ```
 
+Example]
+
 ```
 #Python
 
 import os
 VT_API_KEY = os.getenv("VT_API_KEY")
+
 
 ```
