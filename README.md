@@ -125,8 +125,6 @@ VT_API_KEY = os.getenv("VT_API_KEY")
 </br>
 </br> CMS, 포럼, 기업 내부 시스템까지 확장 가능
 </br>
-</br> .env 기반 보안 환경 변수 관리 적용
-</br>
 
 
 
