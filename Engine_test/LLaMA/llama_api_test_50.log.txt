@@ -1,0 +1,623 @@
+2025-07-03 02:45:50,030 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 156
+2025-07-03 02:45:50,201 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_1_100mb.zip
+2025-07-03 02:45:50,427 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:45:50,722 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:45:51,004 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 02:45:51,196 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 02:46:50,052 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 157
+2025-07-03 02:46:50,194 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_1_200mb.zip
+2025-07-03 02:46:50,404 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:46:50,643 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:46:50,937 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 02:46:51,093 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 02:47:50,016 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 158
+2025-07-03 02:47:50,216 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_1_300mb.zip
+2025-07-03 02:47:50,501 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:47:50,715 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:47:51,010 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 02:47:51,207 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 02:47:51,450 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:48:06,512 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_158/extracted/test_virus_1_300mb.zip.zip
+2025-07-03 02:48:06,745 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:48:07,089 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:48:07,230 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:48:07,357 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:48:07,620 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:48:07,879 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_158/extracted/level_0/dummy.bin
+2025-07-03 02:48:08,102 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:48:08,272 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:48:08,552 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:48:08,703 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 158, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_158'}
+2025-07-03 02:48:08,999 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_158
+
+2025-07-03 02:48:50,041 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 159
+2025-07-03 02:48:50,194 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_1_400mb.zip
+2025-07-03 02:48:50,443 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:48:50,684 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:48:50,967 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 02:48:51,086 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 02:48:51,382 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:49:12,430 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_159/extracted/test_virus_1_400mb.zip.zip
+2025-07-03 02:49:12,696 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:49:13,031 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:49:13,170 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:49:13,341 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:49:13,569 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:49:13,868 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_159/extracted/level_0/dummy.bin
+2025-07-03 02:49:14,160 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:49:14,270 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:49:14,526 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:49:14,672 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 159, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_159'}
+2025-07-03 02:49:14,896 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_159
+
+2025-07-03 02:49:50,045 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 160
+2025-07-03 02:49:50,175 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_1_500mb.zip
+2025-07-03 02:49:50,412 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:49:50,702 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:49:50,957 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 02:49:51,106 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 02:50:50,051 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 161
+2025-07-03 02:50:50,222 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_2_100mb.zip
+2025-07-03 02:50:50,461 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:50:50,697 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:50:50,982 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 02:50:51,128 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 02:51:50,035 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 162
+2025-07-03 02:51:50,146 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_2_200mb.zip
+2025-07-03 02:51:50,403 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:51:50,680 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:51:50,953 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 02:51:51,106 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 02:52:50,064 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 163
+2025-07-03 02:52:50,210 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_2_300mb.zip
+2025-07-03 02:52:50,498 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:52:50,741 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:52:50,972 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 02:52:51,083 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 02:53:50,016 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 164
+2025-07-03 02:53:50,142 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_2_400mb.zip
+2025-07-03 02:53:50,359 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:53:50,617 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:53:50,853 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 02:53:51,035 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 02:54:50,074 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 165
+2025-07-03 02:54:50,211 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_2_500mb.zip
+2025-07-03 02:54:50,496 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:54:50,712 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:54:50,961 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 02:54:51,147 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 02:55:50,033 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 166
+2025-07-03 02:55:50,218 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_3_100mb.zip
+2025-07-03 02:55:50,502 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:55:50,745 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:55:51,033 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 02:55:51,196 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 02:56:50,030 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 167
+2025-07-03 02:56:50,211 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_3_200mb.zip
+2025-07-03 02:56:50,464 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:56:50,704 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:56:50,956 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 02:56:51,074 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 02:56:51,362 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:57:01,428 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_167/extracted/test_virus_3_200mb.zip.zip
+2025-07-03 02:57:01,661 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:57:02,016 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:57:02,209 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:57:02,343 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:57:02,637 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:57:02,928 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_167/extracted/level_0/dummy.bin
+2025-07-03 02:57:03,225 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:57:03,367 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:57:03,630 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:57:03,790 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 167, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_167'}
+2025-07-03 02:57:04,023 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_167
+
+2025-07-03 02:57:50,077 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 168
+2025-07-03 02:57:50,241 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_3_300mb.zip
+2025-07-03 02:57:50,473 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:57:50,721 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:57:50,966 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 02:57:51,099 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 02:58:50,080 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 169
+2025-07-03 02:58:50,264 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_3_400mb.zip
+2025-07-03 02:58:50,522 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:58:50,733 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:58:50,981 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 02:58:51,091 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 02:59:50,080 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 170
+2025-07-03 02:59:50,263 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_3_500mb.zip
+2025-07-03 02:59:50,480 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 02:59:50,743 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 02:59:51,033 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 02:59:51,209 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 02:59:51,455 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:00:16,545 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_170/extracted/test_virus_3_500mb.zip.zip
+2025-07-03 03:00:16,792 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:00:17,187 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:00:17,336 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:00:17,476 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:00:17,718 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:00:18,016 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_170/extracted/level_0/dummy.bin
+2025-07-03 03:00:18,272 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:00:18,412 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:00:18,680 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:00:18,822 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 170, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_170'}
+2025-07-03 03:00:19,118 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_170
+
+2025-07-03 03:00:50,054 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 171
+2025-07-03 03:00:50,225 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_4_100mb.zip
+2025-07-03 03:00:50,475 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:00:50,733 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:00:51,027 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:00:51,174 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:01:50,046 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 172
+2025-07-03 03:01:50,206 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_4_200mb.zip
+2025-07-03 03:01:50,482 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:01:50,728 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:01:50,967 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:01:51,085 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:01:51,380 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:02:01,453 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_172/extracted/test_virus_4_200mb.zip.zip
+2025-07-03 03:02:01,698 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:02:02,079 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:02:02,246 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:02:02,416 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:02:02,673 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:02:02,892 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_172/extracted/level_0/dummy.bin
+2025-07-03 03:02:03,165 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:02:03,341 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:02:03,554 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:02:03,753 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 172, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_172'}
+2025-07-03 03:02:03,973 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_172
+
+2025-07-03 03:02:50,037 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 173
+2025-07-03 03:02:50,192 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_4_300mb.zip
+2025-07-03 03:02:50,430 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:02:50,705 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:02:50,972 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:02:51,129 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:03:50,049 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 174
+2025-07-03 03:03:50,188 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_4_400mb.zip
+2025-07-03 03:03:50,420 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:03:50,715 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:03:50,985 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:03:51,163 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:04:50,026 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 175
+2025-07-03 03:04:50,164 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_4_500mb.zip
+2025-07-03 03:04:50,448 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:04:50,705 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:04:50,923 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:04:51,091 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:04:51,376 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:05:16,422 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_175/extracted/test_virus_4_500mb.zip.zip
+2025-07-03 03:05:16,654 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:05:17,035 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:05:17,196 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:05:17,344 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:05:17,622 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:05:17,905 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_175/extracted/level_0/dummy.bin
+2025-07-03 03:05:18,169 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:05:18,326 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:05:18,569 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:05:18,718 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 175, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_175'}
+2025-07-03 03:05:19,009 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_175
+
+2025-07-03 03:05:50,018 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 176
+2025-07-03 03:05:50,215 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_5_100mb.zip
+2025-07-03 03:05:50,497 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:05:50,726 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:05:51,007 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:05:51,123 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:05:51,376 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:05:57,466 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_176/extracted/test_virus_5_100mb.zip.zip
+2025-07-03 03:05:57,740 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:05:58,104 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:05:58,215 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:05:58,392 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:05:58,616 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:05:58,909 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_176/extracted/level_0/dummy.bin
+2025-07-03 03:05:59,166 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:05:59,306 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:05:59,532 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:05:59,654 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 176, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_176'}
+2025-07-03 03:05:59,892 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_176
+
+2025-07-03 03:06:50,088 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 177
+2025-07-03 03:06:50,272 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_5_200mb.zip
+2025-07-03 03:06:50,537 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:06:50,808 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:06:51,029 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:06:51,150 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:06:51,435 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:07:02,476 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_177/extracted/test_virus_5_200mb.zip.zip
+2025-07-03 03:07:02,748 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:07:03,139 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:07:03,308 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:07:03,453 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:07:03,751 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:07:04,001 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_177/extracted/level_0/dummy.bin
+2025-07-03 03:07:04,290 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:07:04,476 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:07:04,726 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:07:04,863 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 177, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_177'}
+2025-07-03 03:07:05,073 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_177
+
+2025-07-03 03:07:50,013 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 178
+2025-07-03 03:07:50,152 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_5_300mb.zip
+2025-07-03 03:07:50,393 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:07:50,674 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:07:50,944 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:07:51,115 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:08:50,037 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 179
+2025-07-03 03:08:50,214 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_5_400mb.zip
+2025-07-03 03:08:50,506 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:08:50,744 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:08:50,963 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:08:51,078 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:08:51,326 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:09:12,376 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_179/extracted/test_virus_5_400mb.zip.zip
+2025-07-03 03:09:12,614 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:09:12,934 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:09:13,088 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:09:13,239 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:09:13,497 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:09:13,754 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_179/extracted/level_0/dummy.bin
+2025-07-03 03:09:14,051 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:09:14,200 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:09:14,496 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:09:14,627 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 179, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_179'}
+2025-07-03 03:09:14,922 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_179
+
+2025-07-03 03:09:50,074 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 180
+2025-07-03 03:09:50,195 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_5_500mb.zip
+2025-07-03 03:09:50,428 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:09:50,687 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:09:50,924 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:09:51,114 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:10:50,061 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 181
+2025-07-03 03:10:50,173 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_6_100mb.zip
+2025-07-03 03:10:50,469 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:10:50,715 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:10:50,995 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:10:51,128 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:11:50,078 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 182
+2025-07-03 03:11:50,272 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_6_200mb.zip
+2025-07-03 03:11:50,538 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:11:50,790 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:11:51,025 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:11:51,187 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:12:50,049 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 183
+2025-07-03 03:12:50,177 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_6_300mb.zip
+2025-07-03 03:12:50,430 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:12:50,669 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:12:50,910 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:12:51,102 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:13:50,081 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 184
+2025-07-03 03:13:50,199 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_6_400mb.zip
+2025-07-03 03:13:50,492 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:13:50,783 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:13:51,020 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:13:51,172 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:13:51,418 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:14:12,483 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_184/extracted/test_virus_6_400mb.zip.zip
+2025-07-03 03:14:12,746 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:14:13,081 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:14:13,234 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:14:13,356 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:14:13,574 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:14:13,860 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_184/extracted/level_0/dummy.bin
+2025-07-03 03:14:14,105 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:14:14,253 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:14:14,550 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:14:14,709 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 184, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_184'}
+2025-07-03 03:14:14,987 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_184
+
+2025-07-03 03:14:50,070 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 185
+2025-07-03 03:14:50,242 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_6_500mb.zip
+2025-07-03 03:14:50,492 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:14:50,777 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:14:51,058 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:14:51,184 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:15:50,098 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 186
+2025-07-03 03:15:50,268 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_7_100mb.zip
+2025-07-03 03:15:50,510 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:15:50,724 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:15:51,017 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:15:51,153 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:16:50,087 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 187
+2025-07-03 03:16:50,285 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_7_200mb.zip
+2025-07-03 03:16:50,505 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:16:50,792 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:16:51,003 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:16:51,182 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:17:50,029 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 188
+2025-07-03 03:17:50,139 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_7_300mb.zip
+2025-07-03 03:17:50,378 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:17:50,621 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:17:50,892 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:17:51,011 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:17:51,241 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:18:07,259 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_188/extracted/test_virus_7_300mb.zip.zip
+2025-07-03 03:18:07,540 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:18:07,922 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:18:08,063 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:18:08,239 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:18:08,477 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:18:08,707 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_188/extracted/level_0/dummy.bin
+2025-07-03 03:18:08,921 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:18:09,119 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:18:09,372 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:18:09,518 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 188, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_188'}
+2025-07-03 03:18:09,792 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_188
+
+2025-07-03 03:18:50,042 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 189
+2025-07-03 03:18:50,188 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_7_400mb.zip
+2025-07-03 03:18:50,467 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:18:50,732 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:18:50,944 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:18:51,142 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:18:51,380 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:19:12,407 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_189/extracted/test_virus_7_400mb.zip.zip
+2025-07-03 03:19:12,707 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:19:13,061 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:19:13,260 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:19:13,391 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:19:13,690 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:19:13,952 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_189/extracted/level_0/dummy.bin
+2025-07-03 03:19:14,177 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:19:14,346 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:19:14,597 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:19:14,787 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 189, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_189'}
+2025-07-03 03:19:15,043 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_189
+
+2025-07-03 03:19:50,016 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 190
+2025-07-03 03:19:50,177 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_7_500mb.zip
+2025-07-03 03:19:50,455 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:19:50,746 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:19:50,978 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:19:51,121 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:20:50,090 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 191
+2025-07-03 03:20:50,236 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_8_100mb.zip
+2025-07-03 03:20:50,470 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:20:50,698 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:20:50,910 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:20:51,068 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:20:51,280 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:20:57,361 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_191/extracted/test_virus_8_100mb.zip.zip
+2025-07-03 03:20:57,575 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:20:57,965 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:20:58,084 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:20:58,281 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:20:58,525 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:20:58,752 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_191/extracted/level_0/dummy.bin
+2025-07-03 03:20:59,035 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:20:59,213 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:20:59,426 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:20:59,558 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 191, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_191'}
+2025-07-03 03:20:59,799 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_191
+
+2025-07-03 03:21:50,051 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 192
+2025-07-03 03:21:50,178 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_8_200mb.zip
+2025-07-03 03:21:50,461 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:21:50,732 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:21:51,009 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:21:51,196 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:22:50,055 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 193
+2025-07-03 03:22:50,165 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_8_300mb.zip
+2025-07-03 03:22:50,390 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:22:50,672 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:22:50,929 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:22:51,066 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:22:51,364 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:23:06,406 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_193/extracted/test_virus_8_300mb.zip.zip
+2025-07-03 03:23:06,682 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:23:06,995 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:23:07,112 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:23:07,248 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:23:07,514 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:23:07,773 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_193/extracted/level_0/dummy.bin
+2025-07-03 03:23:08,019 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:23:08,212 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:23:08,425 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:23:08,599 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 193, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_193'}
+2025-07-03 03:23:08,874 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_193
+
+2025-07-03 03:23:50,048 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 194
+2025-07-03 03:23:50,247 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_8_400mb.zip
+2025-07-03 03:23:50,547 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:23:50,815 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:23:51,103 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:23:51,299 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:24:50,036 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 195
+2025-07-03 03:24:50,224 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_8_500mb.zip
+2025-07-03 03:24:50,452 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:24:50,711 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:24:50,966 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:24:51,160 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:24:51,418 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:25:16,460 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_195/extracted/test_virus_8_500mb.zip.zip
+2025-07-03 03:25:16,742 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:25:17,061 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:25:17,225 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:25:17,355 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:25:17,655 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:25:17,872 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_195/extracted/level_0/dummy.bin
+2025-07-03 03:25:18,113 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:25:18,278 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:25:18,525 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:25:18,710 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 195, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_195'}
+2025-07-03 03:25:18,958 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_195
+
+2025-07-03 03:25:50,089 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 196
+2025-07-03 03:25:50,255 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_9_100mb.zip
+2025-07-03 03:25:50,536 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:25:50,778 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:25:51,005 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:25:51,116 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:25:51,411 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:25:56,431 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_196/extracted/test_virus_9_100mb.zip.zip
+2025-07-03 03:25:56,669 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:25:57,029 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:25:57,200 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:25:57,338 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:25:57,557 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:25:57,796 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_196/extracted/level_0/dummy.bin
+2025-07-03 03:25:58,015 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:25:58,137 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:25:58,433 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:25:58,606 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 196, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_196'}
+2025-07-03 03:25:58,854 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_196
+
+2025-07-03 03:26:50,055 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 197
+2025-07-03 03:26:50,175 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_9_200mb.zip
+2025-07-03 03:26:50,433 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:26:50,670 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:26:50,911 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:26:51,076 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:26:51,300 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:27:02,345 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_197/extracted/test_virus_9_200mb.zip.zip
+2025-07-03 03:27:02,635 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:27:02,986 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:27:03,177 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:27:03,331 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:27:03,617 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:27:03,845 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_197/extracted/level_0/dummy.bin
+2025-07-03 03:27:04,093 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:27:04,227 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:27:04,519 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:27:04,630 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 197, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_197'}
+2025-07-03 03:27:04,896 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_197
+
+2025-07-03 03:27:50,082 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 198
+2025-07-03 03:27:50,272 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_9_300mb.zip
+2025-07-03 03:27:50,572 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:27:50,813 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:27:51,110 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:27:51,295 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:28:50,019 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 199
+2025-07-03 03:28:50,182 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_9_400mb.zip
+2025-07-03 03:28:50,451 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:28:50,713 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:28:50,931 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:28:51,107 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:29:50,099 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 200
+2025-07-03 03:29:50,295 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_9_500mb.zip
+2025-07-03 03:29:50,529 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:29:50,761 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:29:50,977 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:29:51,091 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:29:51,372 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:30:17,430 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_200/extracted/test_virus_9_500mb.zip.zip
+2025-07-03 03:30:17,660 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:30:17,976 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:30:18,133 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:30:18,326 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:30:18,596 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:30:18,891 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_200/extracted/level_0/dummy.bin
+2025-07-03 03:30:19,133 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:30:19,281 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:30:19,529 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:30:19,729 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 200, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_200'}
+2025-07-03 03:30:19,960 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_200
+
+2025-07-03 03:30:50,034 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 201
+2025-07-03 03:30:50,211 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_10_100mb.zip
+2025-07-03 03:30:50,453 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:30:50,747 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:30:51,035 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:30:51,152 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:30:51,444 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:30:56,503 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_201/extracted/test_virus_10_100mb.zip.zip
+2025-07-03 03:30:56,729 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:30:57,117 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:30:57,306 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:30:57,433 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:30:57,706 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:30:57,986 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_201/extracted/level_0/dummy.bin
+2025-07-03 03:30:58,214 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:30:58,373 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:30:58,672 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:30:58,793 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 201, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_201'}
+2025-07-03 03:30:59,005 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_201
+
+2025-07-03 03:31:50,051 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 202
+2025-07-03 03:31:50,192 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_10_200mb.zip
+2025-07-03 03:31:50,477 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:31:50,723 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:31:50,999 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:31:51,118 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:32:50,058 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 203
+2025-07-03 03:32:50,182 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_10_300mb.zip
+2025-07-03 03:32:50,392 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:32:50,631 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:32:50,913 [INFO] zipsentinel: ❌ LLaMA 결과 없음: 문맥 기반 추론 실패
+2025-07-03 03:32:51,093 [INFO] zipsentinel: [2단계] LLaMA 추론 실패 처리 종료
+
+2025-07-03 03:33:50,099 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 204
+2025-07-03 03:33:50,298 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_10_400mb.zip
+2025-07-03 03:33:50,571 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:33:50,829 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:33:51,083 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:33:51,221 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:33:51,519 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:34:12,564 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_204/extracted/test_virus_10_400mb.zip.zip
+2025-07-03 03:34:12,801 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:34:13,141 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:34:13,297 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:34:13,457 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:34:13,742 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:34:14,027 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_204/extracted/level_0/dummy.bin
+2025-07-03 03:34:14,256 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:34:14,450 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:34:14,750 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:34:14,929 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 204, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_204'}
+2025-07-03 03:34:15,225 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_204
+
+2025-07-03 03:34:50,085 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 205
+2025-07-03 03:34:50,253 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_10_500mb.zip
+2025-07-03 03:34:50,491 [INFO] zipsentinel: [2단계] LLaMA 추론 시작
+2025-07-03 03:34:50,769 [INFO] zipsentinel: 🤖 LLaMA 분석 시작 (CLI 모델 사용)
+2025-07-03 03:34:51,023 [INFO] zipsentinel: 📌 LLaMA 결과: infected
+2025-07-03 03:34:51,177 [INFO] zipsentinel: [2단계] LLaMA 추론 완료: infected
+2025-07-03 03:34:51,459 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:35:16,486 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_205/extracted/test_virus_10_500mb.zip.zip
+2025-07-03 03:35:16,774 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:35:17,147 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:35:17,312 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:35:17,490 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:35:17,771 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:35:18,029 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_205/extracted/level_0/dummy.bin
+2025-07-03 03:35:18,322 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:35:18,447 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:35:18,680 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:35:18,820 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 205, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_205'}
+2025-07-03 03:35:19,043 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_205
+

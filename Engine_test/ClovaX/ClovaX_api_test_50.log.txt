@@ -1,0 +1,999 @@
+2025-07-03 02:45:50,034 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 156
+2025-07-03 02:45:50,155 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_1_100mb.zip
+2025-07-03 02:45:50,437 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:45:50,716 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:45:50,950 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:45:51,081 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:45:51,337 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:45:57,408 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_156/extracted/test_virus_1_100mb.zip.zip
+2025-07-03 02:45:57,660 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:45:58,035 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:45:58,215 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:45:58,342 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:45:58,560 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:45:58,799 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_156/extracted/level_0/dummy.bin
+2025-07-03 02:45:59,017 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:45:59,131 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:45:59,423 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:45:59,606 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 156, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_156'}
+2025-07-03 02:45:59,900 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_156
+
+2025-07-03 02:46:50,064 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 157
+2025-07-03 02:46:50,258 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_1_200mb.zip
+2025-07-03 02:46:50,504 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:46:50,781 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:46:51,053 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:46:51,187 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:46:51,476 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:47:02,572 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_157/extracted/test_virus_1_200mb.zip.zip
+2025-07-03 02:47:02,814 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:47:03,136 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:47:03,249 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:47:03,421 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:47:03,703 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:47:03,963 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_157/extracted/level_0/dummy.bin
+2025-07-03 02:47:04,249 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:47:04,404 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:47:04,674 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:47:04,798 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 157, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_157'}
+2025-07-03 02:47:05,070 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_157
+
+2025-07-03 02:47:50,047 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 158
+2025-07-03 02:47:50,242 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_1_300mb.zip
+2025-07-03 02:47:50,459 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:47:50,679 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:47:50,890 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:47:51,024 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:47:51,292 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:48:06,328 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_158/extracted/test_virus_1_300mb.zip.zip
+2025-07-03 02:48:06,623 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:48:06,983 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:48:07,100 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:48:07,286 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:48:07,568 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:48:07,786 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_158/extracted/level_0/dummy.bin
+2025-07-03 02:48:08,041 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:48:08,165 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:48:08,389 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:48:08,527 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 158, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_158'}
+2025-07-03 02:48:08,754 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_158
+
+2025-07-03 02:48:50,042 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 159
+2025-07-03 02:48:50,214 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_1_400mb.zip
+2025-07-03 02:48:50,437 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:48:50,731 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:48:51,031 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:48:51,162 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:48:51,435 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:49:11,484 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_159/extracted/test_virus_1_400mb.zip.zip
+2025-07-03 02:49:11,759 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:49:12,148 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:49:12,267 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:49:12,441 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:49:12,734 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:49:12,966 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_159/extracted/level_0/dummy.bin
+2025-07-03 02:49:13,216 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:49:13,378 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:49:13,603 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:49:13,788 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 159, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_159'}
+2025-07-03 02:49:14,080 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_159
+
+2025-07-03 02:49:50,043 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 160
+2025-07-03 02:49:50,187 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_1_500mb.zip
+2025-07-03 02:49:50,454 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:49:50,728 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:49:50,949 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:49:51,097 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:49:51,324 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:50:16,381 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_160/extracted/test_virus_1_500mb.zip.zip
+2025-07-03 02:50:16,671 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:50:17,001 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:50:17,122 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:50:17,297 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:50:17,565 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:50:17,847 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_160/extracted/level_0/dummy.bin
+2025-07-03 02:50:18,141 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:50:18,299 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:50:18,544 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:50:18,683 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 160, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_160'}
+2025-07-03 02:50:18,911 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_160
+
+2025-07-03 02:50:50,079 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 161
+2025-07-03 02:50:50,194 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_2_100mb.zip
+2025-07-03 02:50:50,446 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:50:50,697 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:50:50,986 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:50:51,123 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:50:51,357 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:50:57,439 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_161/extracted/test_virus_2_100mb.zip.zip
+2025-07-03 02:50:57,733 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:50:58,097 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:50:58,209 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:50:58,409 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:50:58,664 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:50:58,906 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_161/extracted/level_0/dummy.bin
+2025-07-03 02:50:59,176 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:50:59,303 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:50:59,595 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:50:59,789 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 161, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_161'}
+2025-07-03 02:51:00,025 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_161
+
+2025-07-03 02:51:50,078 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 162
+2025-07-03 02:51:50,225 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_2_200mb.zip
+2025-07-03 02:51:50,470 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:51:50,756 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:51:51,055 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:51:51,202 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:51:51,495 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:52:02,565 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_162/extracted/test_virus_2_200mb.zip.zip
+2025-07-03 02:52:02,789 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:52:03,127 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:52:03,286 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:52:03,440 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:52:03,732 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:52:03,997 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_162/extracted/level_0/dummy.bin
+2025-07-03 02:52:04,275 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:52:04,434 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:52:04,720 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:52:04,848 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 162, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_162'}
+2025-07-03 02:52:05,103 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_162
+
+2025-07-03 02:52:50,045 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 163
+2025-07-03 02:52:50,184 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_2_300mb.zip
+2025-07-03 02:52:50,484 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:52:50,712 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:52:50,954 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:52:51,084 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:52:51,317 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:53:06,417 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_163/extracted/test_virus_2_300mb.zip.zip
+2025-07-03 02:53:06,651 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:53:07,031 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:53:07,200 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:53:07,383 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:53:07,604 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:53:07,818 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_163/extracted/level_0/dummy.bin
+2025-07-03 02:53:08,075 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:53:08,274 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:53:08,571 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:53:08,717 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 163, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_163'}
+2025-07-03 02:53:08,962 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_163
+
+2025-07-03 02:53:50,077 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 164
+2025-07-03 02:53:50,187 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_2_400mb.zip
+2025-07-03 02:53:50,414 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:53:50,684 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:53:50,984 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:53:51,170 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:53:51,462 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:54:12,475 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_164/extracted/test_virus_2_400mb.zip.zip
+2025-07-03 02:54:12,752 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:54:13,139 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:54:13,309 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:54:13,460 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:54:13,759 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:54:14,054 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_164/extracted/level_0/dummy.bin
+2025-07-03 02:54:14,273 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:54:14,387 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:54:14,653 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:54:14,823 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 164, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_164'}
+2025-07-03 02:54:15,064 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_164
+
+2025-07-03 02:54:50,038 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 165
+2025-07-03 02:54:50,233 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_2_500mb.zip
+2025-07-03 02:54:50,525 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:54:50,783 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:54:51,060 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:54:51,207 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:54:51,441 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:55:16,459 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_165/extracted/test_virus_2_500mb.zip.zip
+2025-07-03 02:55:16,670 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:55:17,062 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:55:17,221 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:55:17,342 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:55:17,608 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:55:17,868 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_165/extracted/level_0/dummy.bin
+2025-07-03 02:55:18,113 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:55:18,267 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:55:18,491 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:55:18,620 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 165, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_165'}
+2025-07-03 02:55:18,841 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_165
+
+2025-07-03 02:55:50,063 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 166
+2025-07-03 02:55:50,203 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_3_100mb.zip
+2025-07-03 02:55:50,438 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:55:50,696 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:55:50,959 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:55:51,134 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:55:51,401 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:55:57,485 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_166/extracted/test_virus_3_100mb.zip.zip
+2025-07-03 02:55:57,780 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:55:58,111 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:55:58,306 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:55:58,425 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:55:58,696 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:55:58,913 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_166/extracted/level_0/dummy.bin
+2025-07-03 02:55:59,182 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:55:59,296 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:55:59,547 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:55:59,660 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 166, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_166'}
+2025-07-03 02:55:59,907 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_166
+
+2025-07-03 02:56:50,024 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 167
+2025-07-03 02:56:50,156 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_3_200mb.zip
+2025-07-03 02:56:50,377 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:56:50,657 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:56:50,923 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:56:51,108 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:56:51,334 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:57:01,432 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_167/extracted/test_virus_3_200mb.zip.zip
+2025-07-03 02:57:01,647 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:57:02,031 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:57:02,161 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:57:02,346 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:57:02,602 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:57:02,845 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_167/extracted/level_0/dummy.bin
+2025-07-03 02:57:03,090 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:57:03,255 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:57:03,468 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:57:03,657 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 167, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_167'}
+2025-07-03 02:57:03,934 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_167
+
+2025-07-03 02:57:50,061 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 168
+2025-07-03 02:57:50,197 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_3_300mb.zip
+2025-07-03 02:57:50,460 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:57:50,699 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:57:50,961 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:57:51,125 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:57:51,406 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:58:07,470 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_168/extracted/test_virus_3_300mb.zip.zip
+2025-07-03 02:58:07,754 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:58:08,087 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:58:08,273 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:58:08,450 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:58:08,689 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:58:08,980 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_168/extracted/level_0/dummy.bin
+2025-07-03 02:58:09,256 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:58:09,380 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:58:09,677 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:58:09,818 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 168, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_168'}
+2025-07-03 02:58:10,086 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_168
+
+2025-07-03 02:58:50,049 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 169
+2025-07-03 02:58:50,223 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_3_400mb.zip
+2025-07-03 02:58:50,519 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:58:50,797 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:58:51,093 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:58:51,238 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:58:51,492 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 02:59:11,566 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_169/extracted/test_virus_3_400mb.zip.zip
+2025-07-03 02:59:11,786 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 02:59:12,138 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 02:59:12,267 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 02:59:12,404 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 02:59:12,614 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 02:59:12,906 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_169/extracted/level_0/dummy.bin
+2025-07-03 02:59:13,119 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 02:59:13,234 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 02:59:13,506 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 02:59:13,669 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 169, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_169'}
+2025-07-03 02:59:13,953 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_169
+
+2025-07-03 02:59:50,063 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 170
+2025-07-03 02:59:50,200 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_3_500mb.zip
+2025-07-03 02:59:50,456 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 02:59:50,733 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 02:59:51,026 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 02:59:51,154 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 02:59:51,379 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:00:16,440 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_170/extracted/test_virus_3_500mb.zip.zip
+2025-07-03 03:00:16,690 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:00:17,018 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:00:17,190 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:00:17,354 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:00:17,632 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:00:17,871 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_170/extracted/level_0/dummy.bin
+2025-07-03 03:00:18,168 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:00:18,290 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:00:18,538 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:00:18,656 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 170, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_170'}
+2025-07-03 03:00:18,911 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_170
+
+2025-07-03 03:00:50,095 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 171
+2025-07-03 03:00:50,265 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_4_100mb.zip
+2025-07-03 03:00:50,481 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:00:50,774 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:00:51,022 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:00:51,205 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:00:51,456 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:00:57,500 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_171/extracted/test_virus_4_100mb.zip.zip
+2025-07-03 03:00:57,790 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:00:58,100 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:00:58,292 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:00:58,437 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:00:58,720 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:00:59,007 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_171/extracted/level_0/dummy.bin
+2025-07-03 03:00:59,305 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:00:59,477 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:00:59,766 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:00:59,918 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 171, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_171'}
+2025-07-03 03:01:00,190 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_171
+
+2025-07-03 03:01:50,025 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 172
+2025-07-03 03:01:50,175 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_4_200mb.zip
+2025-07-03 03:01:50,398 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:01:50,636 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:01:50,903 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:01:51,102 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:01:51,348 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:02:02,383 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_172/extracted/test_virus_4_200mb.zip.zip
+2025-07-03 03:02:02,669 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:02:03,009 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:02:03,179 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:02:03,330 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:02:03,616 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:02:03,877 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_172/extracted/level_0/dummy.bin
+2025-07-03 03:02:04,175 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:02:04,298 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:02:04,556 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:02:04,682 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 172, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_172'}
+2025-07-03 03:02:04,896 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_172
+
+2025-07-03 03:02:50,038 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 173
+2025-07-03 03:02:50,228 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_4_300mb.zip
+2025-07-03 03:02:50,479 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:02:50,747 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:02:51,018 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:02:51,203 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:02:51,473 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:03:07,498 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_173/extracted/test_virus_4_300mb.zip.zip
+2025-07-03 03:03:07,776 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:03:08,104 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:03:08,297 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:03:08,445 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:03:08,732 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:03:08,987 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_173/extracted/level_0/dummy.bin
+2025-07-03 03:03:09,275 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:03:09,471 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:03:09,734 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:03:09,867 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 173, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_173'}
+2025-07-03 03:03:10,151 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_173
+
+2025-07-03 03:03:50,084 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 174
+2025-07-03 03:03:50,271 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_4_400mb.zip
+2025-07-03 03:03:50,508 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:03:50,783 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:03:51,039 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:03:51,150 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:03:51,447 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:04:11,513 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_174/extracted/test_virus_4_400mb.zip.zip
+2025-07-03 03:04:11,801 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:04:12,117 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:04:12,248 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:04:12,447 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:04:12,743 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:04:13,022 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_174/extracted/level_0/dummy.bin
+2025-07-03 03:04:13,282 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:04:13,409 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:04:13,687 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:04:13,885 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 174, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_174'}
+2025-07-03 03:04:14,098 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_174
+
+2025-07-03 03:04:50,089 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 175
+2025-07-03 03:04:50,208 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_4_500mb.zip
+2025-07-03 03:04:50,506 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:04:50,757 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:04:51,026 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:04:51,152 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:04:51,419 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:05:16,468 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_175/extracted/test_virus_4_500mb.zip.zip
+2025-07-03 03:05:16,710 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:05:17,088 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:05:17,236 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:05:17,395 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:05:17,631 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:05:17,917 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_175/extracted/level_0/dummy.bin
+2025-07-03 03:05:18,206 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:05:18,360 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:05:18,624 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:05:18,735 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 175, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_175'}
+2025-07-03 03:05:18,949 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_175
+
+2025-07-03 03:05:50,073 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 176
+2025-07-03 03:05:50,271 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_5_100mb.zip
+2025-07-03 03:05:50,506 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:05:50,803 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:05:51,041 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:05:51,179 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:05:51,400 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:05:57,443 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_176/extracted/test_virus_5_100mb.zip.zip
+2025-07-03 03:05:57,691 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:05:58,026 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:05:58,188 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:05:58,311 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:05:58,583 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:05:58,828 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_176/extracted/level_0/dummy.bin
+2025-07-03 03:05:59,055 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:05:59,204 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:05:59,499 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:05:59,685 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 176, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_176'}
+2025-07-03 03:05:59,941 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_176
+
+2025-07-03 03:06:50,035 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 177
+2025-07-03 03:06:50,173 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_5_200mb.zip
+2025-07-03 03:06:50,432 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:06:50,708 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:06:50,979 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:06:51,145 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:06:51,442 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:07:02,509 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_177/extracted/test_virus_5_200mb.zip.zip
+2025-07-03 03:07:02,774 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:07:03,091 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:07:03,258 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:07:03,376 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:07:03,626 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:07:03,873 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_177/extracted/level_0/dummy.bin
+2025-07-03 03:07:04,149 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:07:04,285 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:07:04,553 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:07:04,736 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 177, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_177'}
+2025-07-03 03:07:05,027 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_177
+
+2025-07-03 03:07:50,070 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 178
+2025-07-03 03:07:50,201 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_5_300mb.zip
+2025-07-03 03:07:50,500 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:07:50,736 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:07:50,959 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:07:51,135 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:07:51,424 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:08:07,452 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_178/extracted/test_virus_5_300mb.zip.zip
+2025-07-03 03:08:07,689 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:08:08,033 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:08:08,219 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:08:08,418 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:08:08,662 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:08:08,910 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_178/extracted/level_0/dummy.bin
+2025-07-03 03:08:09,169 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:08:09,280 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:08:09,528 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:08:09,676 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 178, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_178'}
+2025-07-03 03:08:09,913 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_178
+
+2025-07-03 03:08:50,037 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 179
+2025-07-03 03:08:50,215 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_5_400mb.zip
+2025-07-03 03:08:50,481 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:08:50,744 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:08:50,981 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:08:51,131 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:08:51,392 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:09:12,415 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_179/extracted/test_virus_5_400mb.zip.zip
+2025-07-03 03:09:12,693 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:09:13,003 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:09:13,143 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:09:13,313 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:09:13,558 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:09:13,801 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_179/extracted/level_0/dummy.bin
+2025-07-03 03:09:14,033 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:09:14,188 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:09:14,471 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:09:14,661 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 179, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_179'}
+2025-07-03 03:09:14,875 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_179
+
+2025-07-03 03:09:50,066 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 180
+2025-07-03 03:09:50,254 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_5_500mb.zip
+2025-07-03 03:09:50,504 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:09:50,757 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:09:51,046 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:09:51,224 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:09:51,503 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:10:17,590 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_180/extracted/test_virus_5_500mb.zip.zip
+2025-07-03 03:10:17,813 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:10:18,127 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:10:18,315 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:10:18,496 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:10:18,765 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:10:19,031 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_180/extracted/level_0/dummy.bin
+2025-07-03 03:10:19,270 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:10:19,457 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:10:19,694 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:10:19,829 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 180, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_180'}
+2025-07-03 03:10:20,121 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_180
+
+2025-07-03 03:10:50,094 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 181
+2025-07-03 03:10:50,271 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_6_100mb.zip
+2025-07-03 03:10:50,567 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:10:50,787 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:10:51,003 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:10:51,126 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:10:51,351 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:10:57,403 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_181/extracted/test_virus_6_100mb.zip.zip
+2025-07-03 03:10:57,632 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:10:58,016 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:10:58,179 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:10:58,320 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:10:58,556 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:10:58,824 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_181/extracted/level_0/dummy.bin
+2025-07-03 03:10:59,123 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:10:59,254 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:10:59,550 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:10:59,672 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 181, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_181'}
+2025-07-03 03:10:59,885 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_181
+
+2025-07-03 03:11:50,054 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 182
+2025-07-03 03:11:50,233 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_6_200mb.zip
+2025-07-03 03:11:50,471 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:11:50,766 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:11:51,000 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:11:51,126 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:11:51,424 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:12:02,462 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_182/extracted/test_virus_6_200mb.zip.zip
+2025-07-03 03:12:02,759 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:12:03,143 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:12:03,319 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:12:03,519 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:12:03,758 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:12:03,989 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_182/extracted/level_0/dummy.bin
+2025-07-03 03:12:04,282 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:12:04,458 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:12:04,695 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:12:04,885 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 182, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_182'}
+2025-07-03 03:12:05,115 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_182
+
+2025-07-03 03:12:50,099 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 183
+2025-07-03 03:12:50,227 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_6_300mb.zip
+2025-07-03 03:12:50,463 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:12:50,709 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:12:50,982 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:12:51,151 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:12:51,405 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:13:06,501 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_183/extracted/test_virus_6_300mb.zip.zip
+2025-07-03 03:13:06,770 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:13:07,090 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:13:07,267 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:13:07,385 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:13:07,627 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:13:07,848 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_183/extracted/level_0/dummy.bin
+2025-07-03 03:13:08,099 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:13:08,226 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:13:08,516 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:13:08,667 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 183, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_183'}
+2025-07-03 03:13:08,931 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_183
+
+2025-07-03 03:13:50,069 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 184
+2025-07-03 03:13:50,216 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_6_400mb.zip
+2025-07-03 03:13:50,478 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:13:50,723 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:13:50,976 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:13:51,087 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:13:51,310 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:14:11,329 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_184/extracted/test_virus_6_400mb.zip.zip
+2025-07-03 03:14:11,573 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:14:11,955 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:14:12,108 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:14:12,282 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:14:12,576 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:14:12,859 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_184/extracted/level_0/dummy.bin
+2025-07-03 03:14:13,102 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:14:13,220 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:14:13,484 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:14:13,675 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 184, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_184'}
+2025-07-03 03:14:13,963 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_184
+
+2025-07-03 03:14:50,088 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 185
+2025-07-03 03:14:50,288 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_6_500mb.zip
+2025-07-03 03:14:50,539 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:14:50,822 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:14:51,107 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:14:51,232 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:14:51,463 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:15:17,539 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_185/extracted/test_virus_6_500mb.zip.zip
+2025-07-03 03:15:17,809 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:15:18,173 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:15:18,341 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:15:18,539 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:15:18,828 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:15:19,042 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_185/extracted/level_0/dummy.bin
+2025-07-03 03:15:19,266 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:15:19,421 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:15:19,637 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:15:19,767 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 185, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_185'}
+2025-07-03 03:15:20,066 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_185
+
+2025-07-03 03:15:50,084 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 186
+2025-07-03 03:15:50,270 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_7_100mb.zip
+2025-07-03 03:15:50,562 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:15:50,862 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:15:51,121 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:15:51,318 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:15:51,595 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:15:57,611 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_186/extracted/test_virus_7_100mb.zip.zip
+2025-07-03 03:15:57,878 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:15:58,211 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:15:58,362 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:15:58,502 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:15:58,740 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:15:58,991 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_186/extracted/level_0/dummy.bin
+2025-07-03 03:15:59,232 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:15:59,354 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:15:59,634 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:15:59,790 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 186, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_186'}
+2025-07-03 03:16:00,034 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_186
+
+2025-07-03 03:16:50,020 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 187
+2025-07-03 03:16:50,164 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_7_200mb.zip
+2025-07-03 03:16:50,395 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:16:50,635 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:16:50,874 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:16:51,000 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:16:51,242 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:17:01,289 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_187/extracted/test_virus_7_200mb.zip.zip
+2025-07-03 03:17:01,514 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:17:01,872 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:17:02,062 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:17:02,216 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:17:02,494 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:17:02,753 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_187/extracted/level_0/dummy.bin
+2025-07-03 03:17:02,996 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:17:03,181 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:17:03,454 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:17:03,641 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 187, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_187'}
+2025-07-03 03:17:03,885 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_187
+
+2025-07-03 03:17:50,033 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 188
+2025-07-03 03:17:50,170 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_7_300mb.zip
+2025-07-03 03:17:50,441 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:17:50,701 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:17:50,937 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:17:51,067 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:17:51,297 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:18:06,371 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_188/extracted/test_virus_7_300mb.zip.zip
+2025-07-03 03:18:06,611 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:18:06,941 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:18:07,099 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:18:07,272 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:18:07,515 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:18:07,759 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_188/extracted/level_0/dummy.bin
+2025-07-03 03:18:08,001 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:18:08,175 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:18:08,462 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:18:08,601 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 188, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_188'}
+2025-07-03 03:18:08,854 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_188
+
+2025-07-03 03:18:50,029 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 189
+2025-07-03 03:18:50,186 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_7_400mb.zip
+2025-07-03 03:18:50,433 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:18:50,653 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:18:50,919 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:18:51,045 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:18:51,318 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:19:12,335 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_189/extracted/test_virus_7_400mb.zip.zip
+2025-07-03 03:19:12,560 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:19:12,886 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:19:13,019 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:19:13,194 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:19:13,412 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:19:13,709 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_189/extracted/level_0/dummy.bin
+2025-07-03 03:19:13,975 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:19:14,107 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:19:14,356 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:19:14,554 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 189, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_189'}
+2025-07-03 03:19:14,847 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_189
+
+2025-07-03 03:19:50,058 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 190
+2025-07-03 03:19:50,204 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_7_500mb.zip
+2025-07-03 03:19:50,479 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:19:50,744 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:19:50,992 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:19:51,106 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:19:51,398 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:20:17,493 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_190/extracted/test_virus_7_500mb.zip.zip
+2025-07-03 03:20:17,716 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:20:18,044 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:20:18,237 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:20:18,351 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:20:18,622 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:20:18,843 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_190/extracted/level_0/dummy.bin
+2025-07-03 03:20:19,139 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:20:19,326 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:20:19,582 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:20:19,777 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 190, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_190'}
+2025-07-03 03:20:20,075 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_190
+
+2025-07-03 03:20:50,090 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 191
+2025-07-03 03:20:50,257 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_8_100mb.zip
+2025-07-03 03:20:50,508 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:20:50,757 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:20:51,035 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:20:51,204 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:20:51,441 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:20:56,493 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_191/extracted/test_virus_8_100mb.zip.zip
+2025-07-03 03:20:56,731 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:20:57,104 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:20:57,284 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:20:57,402 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:20:57,634 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:20:57,901 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_191/extracted/level_0/dummy.bin
+2025-07-03 03:20:58,129 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:20:58,303 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:20:58,579 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:20:58,742 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 191, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_191'}
+2025-07-03 03:20:59,009 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_191
+
+2025-07-03 03:21:50,051 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 192
+2025-07-03 03:21:50,244 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_8_200mb.zip
+2025-07-03 03:21:50,510 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:21:50,803 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:21:51,066 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:21:51,256 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:21:51,491 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:22:02,559 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_192/extracted/test_virus_8_200mb.zip.zip
+2025-07-03 03:22:02,789 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:22:03,148 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:22:03,340 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:22:03,457 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:22:03,724 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:22:03,965 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_192/extracted/level_0/dummy.bin
+2025-07-03 03:22:04,230 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:22:04,385 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:22:04,685 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:22:04,816 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 192, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_192'}
+2025-07-03 03:22:05,062 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_192
+
+2025-07-03 03:22:50,076 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 193
+2025-07-03 03:22:50,274 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_8_300mb.zip
+2025-07-03 03:22:50,523 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:22:50,808 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:22:51,058 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:22:51,253 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:22:51,547 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:23:06,586 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_193/extracted/test_virus_8_300mb.zip.zip
+2025-07-03 03:23:06,862 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:23:07,209 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:23:07,346 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:23:07,521 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:23:07,808 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:23:08,025 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_193/extracted/level_0/dummy.bin
+2025-07-03 03:23:08,283 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:23:08,413 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:23:08,694 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:23:08,845 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 193, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_193'}
+2025-07-03 03:23:09,060 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_193
+
+2025-07-03 03:23:50,012 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 194
+2025-07-03 03:23:50,196 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_8_400mb.zip
+2025-07-03 03:23:50,455 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:23:50,711 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:23:50,967 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:23:51,100 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:23:51,338 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:24:11,417 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_194/extracted/test_virus_8_400mb.zip.zip
+2025-07-03 03:24:11,702 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:24:12,032 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:24:12,215 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:24:12,410 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:24:12,658 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:24:12,940 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_194/extracted/level_0/dummy.bin
+2025-07-03 03:24:13,165 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:24:13,280 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:24:13,532 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:24:13,644 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 194, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_194'}
+2025-07-03 03:24:13,912 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_194
+
+2025-07-03 03:24:50,065 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 195
+2025-07-03 03:24:50,262 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_8_500mb.zip
+2025-07-03 03:24:50,536 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:24:50,788 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:24:50,999 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:24:51,172 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:24:51,408 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:25:16,447 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_195/extracted/test_virus_8_500mb.zip.zip
+2025-07-03 03:25:16,731 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:25:17,057 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:25:17,172 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:25:17,334 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:25:17,567 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:25:17,807 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_195/extracted/level_0/dummy.bin
+2025-07-03 03:25:18,051 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:25:18,218 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:25:18,462 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:25:18,661 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 195, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_195'}
+2025-07-03 03:25:18,935 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_195
+
+2025-07-03 03:25:50,066 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 196
+2025-07-03 03:25:50,249 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_9_100mb.zip
+2025-07-03 03:25:50,507 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:25:50,740 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:25:50,978 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:25:51,132 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:25:51,367 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:25:56,409 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_196/extracted/test_virus_9_100mb.zip.zip
+2025-07-03 03:25:56,635 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:25:57,028 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:25:57,138 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:25:57,283 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:25:57,560 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:25:57,842 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_196/extracted/level_0/dummy.bin
+2025-07-03 03:25:58,127 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:25:58,269 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:25:58,531 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:25:58,711 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 196, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_196'}
+2025-07-03 03:25:58,996 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_196
+
+2025-07-03 03:26:50,095 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 197
+2025-07-03 03:26:50,223 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_9_200mb.zip
+2025-07-03 03:26:50,463 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:26:50,760 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:26:51,023 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:26:51,199 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:26:51,454 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:27:01,491 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_197/extracted/test_virus_9_200mb.zip.zip
+2025-07-03 03:27:01,754 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:27:02,086 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:27:02,249 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:27:02,400 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:27:02,681 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:27:02,914 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_197/extracted/level_0/dummy.bin
+2025-07-03 03:27:03,158 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:27:03,328 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:27:03,589 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:27:03,704 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 197, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_197'}
+2025-07-03 03:27:03,924 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_197
+
+2025-07-03 03:27:50,067 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 198
+2025-07-03 03:27:50,214 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_9_300mb.zip
+2025-07-03 03:27:50,449 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:27:50,691 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:27:50,907 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:27:51,034 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:27:51,302 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:28:07,317 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_198/extracted/test_virus_9_300mb.zip.zip
+2025-07-03 03:28:07,529 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:28:07,867 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:28:08,020 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:28:08,140 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:28:08,415 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:28:08,643 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_198/extracted/level_0/dummy.bin
+2025-07-03 03:28:08,906 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:28:09,045 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:28:09,268 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:28:09,407 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 198, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_198'}
+2025-07-03 03:28:09,635 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_198
+
+2025-07-03 03:28:50,087 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 199
+2025-07-03 03:28:50,224 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_9_400mb.zip
+2025-07-03 03:28:50,463 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:28:50,742 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:28:50,989 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:28:51,107 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:28:51,388 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:29:12,441 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_199/extracted/test_virus_9_400mb.zip.zip
+2025-07-03 03:29:12,715 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:29:13,093 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:29:13,241 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:29:13,425 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:29:13,714 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:29:13,946 [INFO] zipsentinel: ❌ VirusTotal 업로드 실패: API 토큰 만료 또는 응답 지연
+2025-07-03 03:29:14,060 [INFO] zipsentinel: ⚠️ VirusTotal 분석 생략 → 위험도 평가 미수행
+2025-07-03 03:29:14,354 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:29:14,504 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 199, 'risk_level': '미분석', 'risk_level_readable': '🟡 미분석', 'malicious_count': null, 'total_files': null, 'vt_report_url': null}
+2025-07-03 03:29:14,731 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_199
+
+2025-07-03 03:29:50,021 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 200
+2025-07-03 03:29:50,189 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_9_500mb.zip
+2025-07-03 03:29:50,467 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:29:50,720 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:29:50,954 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:29:51,092 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:29:51,368 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:30:16,430 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_200/extracted/test_virus_9_500mb.zip.zip
+2025-07-03 03:30:16,723 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:30:17,120 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:30:17,256 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:30:17,404 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:30:17,661 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:30:17,917 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_200/extracted/level_0/dummy.bin
+2025-07-03 03:30:18,170 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:30:18,344 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:30:18,636 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:30:18,813 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 200, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_200'}
+2025-07-03 03:30:19,110 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_200
+
+2025-07-03 03:30:50,032 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 201
+2025-07-03 03:30:50,196 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_10_100mb.zip
+2025-07-03 03:30:50,486 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:30:50,768 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:30:51,013 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:30:51,193 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:30:51,437 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:30:57,461 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_201/extracted/test_virus_10_100mb.zip.zip
+2025-07-03 03:30:57,700 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:30:58,014 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:30:58,134 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:30:58,259 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:30:58,559 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:30:58,830 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_201/extracted/level_0/dummy.bin
+2025-07-03 03:30:59,115 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:30:59,307 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:30:59,561 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:30:59,742 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 201, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_201'}
+2025-07-03 03:30:59,955 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_201
+
+2025-07-03 03:31:50,073 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 202
+2025-07-03 03:31:50,234 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_10_200mb.zip
+2025-07-03 03:31:50,449 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:31:50,667 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:31:50,908 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:31:51,067 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:31:51,332 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:32:01,343 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_202/extracted/test_virus_10_200mb.zip.zip
+2025-07-03 03:32:01,561 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:32:01,885 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:32:02,077 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:32:02,252 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:32:02,471 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:32:02,684 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_202/extracted/level_0/dummy.bin
+2025-07-03 03:32:02,956 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:32:03,140 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:32:03,400 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:32:03,513 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 202, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_202'}
+2025-07-03 03:32:03,777 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_202
+
+2025-07-03 03:32:50,039 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 203
+2025-07-03 03:32:50,172 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_10_300mb.zip
+2025-07-03 03:32:50,453 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:32:50,712 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:32:51,007 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:32:51,161 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:32:51,377 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:33:07,473 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_203/extracted/test_virus_10_300mb.zip.zip
+2025-07-03 03:33:07,765 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:33:08,107 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:33:08,218 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:33:08,418 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:33:08,713 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:33:08,990 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_203/extracted/level_0/dummy.bin
+2025-07-03 03:33:09,215 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:33:09,354 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:33:09,620 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:33:09,749 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 203, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_203'}
+2025-07-03 03:33:10,012 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_203
+
+2025-07-03 03:33:50,065 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 204
+2025-07-03 03:33:50,237 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_10_400mb.zip
+2025-07-03 03:33:50,522 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:33:50,745 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:33:51,023 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:33:51,161 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:33:51,373 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:34:12,451 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_204/extracted/test_virus_10_400mb.zip.zip
+2025-07-03 03:34:12,716 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:34:13,113 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:34:13,310 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:34:13,456 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:34:13,747 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:34:13,994 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_204/extracted/level_0/dummy.bin
+2025-07-03 03:34:14,289 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:34:14,453 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:34:14,731 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:34:14,925 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 204, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_204'}
+2025-07-03 03:34:15,191 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_204
+
+2025-07-03 03:34:50,029 [INFO] zipsentinel: [1단계] 게시글 수신 완료 - ID: 205
+2025-07-03 03:34:50,147 [INFO] zipsentinel: 📎 테스트 파일명: test_virus_10_500mb.zip
+2025-07-03 03:34:50,363 [INFO] zipsentinel: [2단계] ClovaX 추론 시작
+2025-07-03 03:34:50,624 [INFO] zipsentinel: 📨 ClovaX 분석 시작 (HCX 모델 사용)
+2025-07-03 03:34:50,913 [INFO] zipsentinel: 📌 ClovaX 결과: infected
+2025-07-03 03:34:51,069 [INFO] zipsentinel: [2단계] ClovaX 추론 완료: infected
+2025-07-03 03:34:51,301 [INFO] zipsentinel: [3단계] 파일 다운로드 시작
+2025-07-03 03:35:17,373 [INFO] zipsentinel: 📥 다운로드 완료: /tmp/zipsentinel_205/extracted/test_virus_10_500mb.zip.zip
+2025-07-03 03:35:17,631 [INFO] zipsentinel: [3단계] 압축 해제 시작
+2025-07-03 03:35:17,944 [INFO] zipsentinel: [zipfile] 압축 해제 성공
+2025-07-03 03:35:18,144 [INFO] zipsentinel: [pyzipper] 압축 해제 성공
+2025-07-03 03:35:18,287 [INFO] zipsentinel: [3단계] 압축 해제 완료
+2025-07-03 03:35:18,579 [INFO] zipsentinel: [4단계] VirusTotal 해시 분석 시작
+2025-07-03 03:35:18,865 [INFO] zipsentinel: ✅ VirusTotal 해시 분석 성공: /tmp/zipsentinel_205/extracted/level_0/dummy.bin
+2025-07-03 03:35:19,151 [INFO] zipsentinel: [5단계] 위험도 등급 평가 시작
+2025-07-03 03:35:19,331 [INFO] zipsentinel: 📊 위험도 등급 평가 완료 - 전체 3개 파일, 악성 39건 → 🔴 위험
+2025-07-03 03:35:19,550 [INFO] zipsentinel: [6단계] 최종 응답 처리 시작
+2025-07-03 03:35:19,693 [INFO] zipsentinel: [✅ FE 전송 결과] {'status': 'completed', 'post_id': 205, 'risk_level': '위험', 'risk_level_readable': '🔴 위험', 'malicious_count': 39, 'total_files': 3, 'vt_report_url': 'https://www.virustotal.com/gui/file/hash_205'}
+2025-07-03 03:35:19,928 [INFO] zipsentinel: 🧹 임시 디렉토리 삭제 완료: /tmp/zipsentinel_205
+

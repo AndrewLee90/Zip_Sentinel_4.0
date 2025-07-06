@@ -1,0 +1,100 @@
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 151, "file_size_MB": 100, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 33, "total_files": 2, "elapsed_time_sec": 3.645}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 152, "file_size_MB": 200, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 33, "total_files": 2, "elapsed_time_sec": 5.904}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 153, "file_size_MB": 300, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 33, "total_files": 2, "elapsed_time_sec": 8.439}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 154, "file_size_MB": 400, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 33, "total_files": 2, "elapsed_time_sec": 11.227}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 155, "file_size_MB": 500, "clovax_success": true, "extract_success": true, "vt_success": false, "malicious_count": 33, "total_files": 2, "elapsed_time_sec": 14.069}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 156, "file_size_MB": 100, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 52, "total_files": 2, "elapsed_time_sec": 3.387}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 157, "file_size_MB": 200, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 52, "total_files": 2, "elapsed_time_sec": 7.3}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 158, "file_size_MB": 300, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 52, "total_files": 2, "elapsed_time_sec": 9.473}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 159, "file_size_MB": 400, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 52, "total_files": 2, "elapsed_time_sec": 11.47}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 160, "file_size_MB": 500, "clovax_success": true, "extract_success": true, "vt_success": false, "malicious_count": 52, "total_files": 2, "elapsed_time_sec": 14.168}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 161, "file_size_MB": 100, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 66, "total_files": 2, "elapsed_time_sec": 3.452}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 162, "file_size_MB": 200, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 66, "total_files": 2, "elapsed_time_sec": 7.323}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 163, "file_size_MB": 300, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 66, "total_files": 2, "elapsed_time_sec": 8.908}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 164, "file_size_MB": 400, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 66, "total_files": 2, "elapsed_time_sec": 10.553}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 165, "file_size_MB": 500, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 66, "total_files": 2, "elapsed_time_sec": 14.756}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 166, "file_size_MB": 100, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 13, "total_files": 2, "elapsed_time_sec": 3.643}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 167, "file_size_MB": 200, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 13, "total_files": 2, "elapsed_time_sec": 6.294}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 168, "file_size_MB": 300, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 13, "total_files": 2, "elapsed_time_sec": 8.412}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 169, "file_size_MB": 400, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 13, "total_files": 2, "elapsed_time_sec": 10.858}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 170, "file_size_MB": 500, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 13, "total_files": 2, "elapsed_time_sec": 14.738}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 171, "file_size_MB": 100, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 42, "total_files": 2, "elapsed_time_sec": 3.833}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 172, "file_size_MB": 200, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 42, "total_files": 2, "elapsed_time_sec": 7.138}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 173, "file_size_MB": 300, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 42, "total_files": 2, "elapsed_time_sec": 8.278}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 174, "file_size_MB": 400, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 42, "total_files": 2, "elapsed_time_sec": 12.314}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 175, "file_size_MB": 500, "clovax_success": true, "extract_success": true, "vt_success": false, "malicious_count": 42, "total_files": 2, "elapsed_time_sec": 13.071}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 176, "file_size_MB": 100, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 41, "total_files": 2, "elapsed_time_sec": 4.31}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 177, "file_size_MB": 200, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 41, "total_files": 2, "elapsed_time_sec": 5.609}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 178, "file_size_MB": 300, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 41, "total_files": 2, "elapsed_time_sec": 8.241}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 179, "file_size_MB": 400, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 41, "total_files": 2, "elapsed_time_sec": 11.573}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 180, "file_size_MB": 500, "clovax_success": true, "extract_success": true, "vt_success": false, "malicious_count": 41, "total_files": 2, "elapsed_time_sec": 14.332}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 181, "file_size_MB": 100, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 51, "total_files": 2, "elapsed_time_sec": 4.013}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 182, "file_size_MB": 200, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 51, "total_files": 2, "elapsed_time_sec": 7.315}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 183, "file_size_MB": 300, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 51, "total_files": 2, "elapsed_time_sec": 8.094}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 184, "file_size_MB": 400, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 51, "total_files": 2, "elapsed_time_sec": 11.078}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 185, "file_size_MB": 500, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 51, "total_files": 2, "elapsed_time_sec": 14.441}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 186, "file_size_MB": 100, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 22, "total_files": 2, "elapsed_time_sec": 3.607}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 187, "file_size_MB": 200, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 22, "total_files": 2, "elapsed_time_sec": 5.539}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 188, "file_size_MB": 300, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 22, "total_files": 2, "elapsed_time_sec": 8.359}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 189, "file_size_MB": 400, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 22, "total_files": 2, "elapsed_time_sec": 10.78}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 190, "file_size_MB": 500, "clovax_success": true, "extract_success": true, "vt_success": false, "malicious_count": 22, "total_files": 2, "elapsed_time_sec": 14.436}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 191, "file_size_MB": 100, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 54, "total_files": 2, "elapsed_time_sec": 3.572}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 192, "file_size_MB": 200, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 54, "total_files": 2, "elapsed_time_sec": 6.293}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 193, "file_size_MB": 300, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 54, "total_files": 2, "elapsed_time_sec": 8.192}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 194, "file_size_MB": 400, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 54, "total_files": 2, "elapsed_time_sec": 11.816}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 195, "file_size_MB": 500, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 54, "total_files": 2, "elapsed_time_sec": 13.67}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 196, "file_size_MB": 100, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 36, "total_files": 2, "elapsed_time_sec": 4.565}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 197, "file_size_MB": 200, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 36, "total_files": 2, "elapsed_time_sec": 7.373}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 198, "file_size_MB": 300, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 36, "total_files": 2, "elapsed_time_sec": 8.243}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 199, "file_size_MB": 400, "clovax_success": true, "extract_success": true, "vt_success": true, "malicious_count": 36, "total_files": 2, "elapsed_time_sec": 11.211}
+{"index": {"_index": "zipsentinel_logs"}}
+{"post_id": 200, "file_size_MB": 500, "clovax_success": true, "extract_success": true, "vt_success": false, "malicious_count": 36, "total_files": 2, "elapsed_time_sec": 14.637}
